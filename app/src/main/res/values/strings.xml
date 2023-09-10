@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">E-commerce</string>
+    <string name="collection">Once Collection Weekly</string>
+    <string name="bag">Add to bag</string>
+    <string name="share">Share</string>
+    <string name="ane">ANESTHESIA</string>
+    <string name="sku">SKU:</string>
+    <string name="color">Color:</string>
+    <string name="price">3.50 KWD</string>
+    <string name="paymentoptions">or 4 interest-free payments</string>
+    <string name="learnmore"><b>0.88 KWD </b><u>Learn More</u></string>
+    <string name="tabby"><b>tabby</b></string>
+    <string name="quantity">Quantity</string>
+    <string name="product">PRODUCT INFORMATION</string>
+</resources>
