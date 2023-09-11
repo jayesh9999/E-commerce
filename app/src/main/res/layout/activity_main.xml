@@ -85,8 +85,8 @@
     </FrameLayout>
 
     <ScrollView
-        android:layout_width="412dp"
-        android:layout_height="565dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginBottom="124dp"
         android:layout_marginTop="54dp"
         app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
@@ -117,7 +117,7 @@
                 android:id="@+id/circleImageView"
                 android:layout_width="10dp"
                 android:layout_height="10dp"
-                android:layout_marginStart="7dp"
+                android:layout_marginStart="6dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/circle"
                 android:backgroundTint="@color/black"
@@ -351,17 +351,19 @@
                 android:layout_height="10dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="45dp"
                 android:background="@drawable/circle"
                 android:backgroundTint="#D7B993"
                 android:backgroundTintMode="screen"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/circleImageView20"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
-                android:layout_height="22dp"
-                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
                 android:layout_marginTop="416dp"
                 android:text="@string/ane"
                 android:textColor="@color/black"
@@ -424,7 +426,7 @@
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
-                android:layout_height="22dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="416dp"
                 android:gravity="center"
                 android:text="@string/price"
@@ -515,8 +517,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
-                android:layout_width="380dp"
-                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginTop="32dp"
                 android:background="@drawable/cornerrounded"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -545,7 +549,7 @@
                 <TextView
                     android:layout_width="70dp"
                     android:layout_height="30dp"
-                    android:layout_marginStart="300dp"
+                    android:layout_marginStart="250dp"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/cornerroundedbutton"
                     android:backgroundTint="#43F9A9"
@@ -560,6 +564,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
                 android:text="@string/quantity"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -572,6 +577,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginStart="8dp"
                 android:background="#9A9A9A"
                 android:gravity="center"
                 android:text="-"
@@ -614,6 +620,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
+                android:layout_marginStart="8dp"
                 android:text="@string/product"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -634,9 +641,11 @@
 
             <TextView
                 android:id="@+id/description"
-                android:layout_width="375dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.542"
                 app:layout_constraintStart_toStartOf="parent"
