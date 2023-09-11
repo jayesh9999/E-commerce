@@ -41,11 +41,8 @@ class MainActivity : AppCompatActivity() {
 
             val name = repository.data.value?.data?.name
             binding.textView3.text = "$name"
-
-//            val price = repository.data.value?.data?.price
-//            binding.textView6.text = "$price"
-
-            Glide.with(this).load(repository.data.value?.data?.image).into(binding.imageView)
+           
+ Glide.with(this).load(repository.data.value?.data?.image).into(binding.imageView)
 
             Glide.with(this).load(repository.data.value?.data?.image).into(binding.imageView6)
 
